@@ -1,0 +1,19 @@
+SMAP
+registration_005fdist_jsp.java
+JSP
+*S JSP
+*F
++ 0 registration_dist.jsp
+registration_dist.jsp
++ 1 header.jsp
+Master_Page/header.jsp
++ 2 footer.jsp
+Master_Page/footer.jsp
+*L
+5,32:53
+36,14:85
+5#1,80:99
+49#0,65:178
+5#2,49:243
+113#0,6:291
+*E

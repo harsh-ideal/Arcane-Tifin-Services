@@ -1,0 +1,28 @@
+SMAP
+CustomerList_jsp.java
+JSP
+*S JSP
+*F
++ 0 CustomerList.jsp
+AdminZone/CustomerList.jsp
++ 1 header.jsp
+AdminZone/header.jsp
++ 2 Footer.jsp
+AdminZone/Footer.jsp
+*L
+1,23:52
+5#1,35:75
+23#0,17:109
+40,6:127
+45,2:133
+47,5:135,3
+52:150
+53:151,3
+54:154
+55:155,3
+56,7:158
+64,2:167
+65,11:169
+5#2,46:180
+75#0,6:225
+*E

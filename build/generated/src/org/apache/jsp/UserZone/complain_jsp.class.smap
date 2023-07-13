@@ -1,0 +1,22 @@
+SMAP
+complain_jsp.java
+JSP
+*S JSP
+*F
++ 0 complain.jsp
+UserZone/complain.jsp
++ 1 header.jsp
+UserZone/header.jsp
++ 2 footer.jsp
+UserZone/footer.jsp
+*L
+1,26:55
+26,12:81
+5#1,63:93
+68,8:157
+75,2:165,3
+77,19:171
+37#0,23:189
+5#2,49:212
+59#0,11:260
+*E

@@ -1,0 +1,31 @@
+SMAP
+Enquiryupdate_jsp.java
+JSP
+*S JSP
+*F
++ 0 Enquiryupdate.jsp
+AdminZone/Enquiryupdate.jsp
++ 1 header.jsp
+AdminZone/header.jsp
+*L
+1,11:53
+11:64
+13,20:66
+32,8:86
+5#1,41:94
+39#0,3:134
+42,5:138
+46,11:143
+57:154,3
+58,4:157
+62:161,3
+63,4:164
+67:168,3
+68,4:171
+72:175,3
+73,4:178
+77:182,3
+78,3:185
+81:188,3
+82,12:191
+*E

@@ -1,0 +1,26 @@
+SMAP
+ViewComplain_jsp.java
+JSP
+*S JSP
+*F
++ 0 ViewComplain.jsp
+AdminZone/ViewComplain.jsp
++ 1 header.jsp
+AdminZone/header.jsp
+*L
+1,21:51
+5#1,35:72
+21#0,18:106
+39,6:125
+44,2:131
+46,5:133,3
+51:148
+52,5:150
+56,3:155
+59,3:159
+61:162
+62:163,3
+63,3:166
+65,3:169
+67,12:172
+*E

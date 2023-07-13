@@ -1,0 +1,23 @@
+SMAP
+feedback_jsp.java
+JSP
+*S JSP
+*F
++ 0 feedback.jsp
+UserZone/feedback.jsp
++ 1 header.jsp
+UserZone/header.jsp
++ 2 footer.jsp
+UserZone/footer.jsp
+*L
+1,2:54
+4,19:57
+22,49:76
+5#1,63:125
+68,8:189
+75,2:197,3
+77,19:203
+70#0,33:221
+5#2,49:254
+102#0,4:302
+*E
