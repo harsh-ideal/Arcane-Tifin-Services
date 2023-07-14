@@ -22,7 +22,7 @@
         String dt=sm.format(new Date());
         String cmd1="insert into tb_registration_dil(tiffin_name,name,mobile,email,pin_code,address,description,password,rdt) values('"+dil_name+"','"+name+"','"+mobile+"','"+email+"','"+pin_code+"','"+add+"','"+discription+"','"+password+"','"+dt+"')";
         String cmd2="insert into tbl_login values('"+mobile+"','"+password+"','dealer','"+dt+"')";
-        out.print(cmd1);
+        //out.print(cmd1);
         DatabaseManager db=new DatabaseManager();
         if(db.MyInsertUpdateDelete(cmd1) && db.MyInsertUpdateDelete(cmd2))
         {

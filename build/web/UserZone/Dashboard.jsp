@@ -9,7 +9,7 @@
 <%
 if(session.getAttribute("uid")!=null && session.getAttribute("uid")!="")
 {
-   out.print(session.getAttribute("uid"));
+  // out.print(session.getAttribute("uid"));
 %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

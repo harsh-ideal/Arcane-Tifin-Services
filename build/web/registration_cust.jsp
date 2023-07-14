@@ -20,7 +20,7 @@
         String dt=sm.format(new Date());
         String cmd1="insert into tb_registration_cust(name,mobile,email,pin,addr,pass,dt) values('"+name+"','"+mobile+"','"+email+"','"+pin_code+"','"+add+"','"+password+"','"+dt+"')";
         String cmd2="insert into tbl_login values('"+mobile+"','"+password+"','user','"+dt+"')";
-        out.print(cmd1);
+        //out.print(cmd1);
         DatabaseManager db=new DatabaseManager();
         if(db.MyInsertUpdateDelete(cmd1) && db.MyInsertUpdateDelete(cmd2))
         {

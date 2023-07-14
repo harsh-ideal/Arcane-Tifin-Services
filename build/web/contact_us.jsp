@@ -12,7 +12,7 @@
         SimpleDateFormat sm=new SimpleDateFormat();
         String dt=sm.format(new Date());
         String cmd="insert into tb_contact(name,email,mobile,massage,cdt)values('"+name+"','"+email+"','"+mobile+"','"+msg+"','"+dt+"')";
-        out.print(cmd);
+        //out.print(cmd);
         DatabaseManager db=new DatabaseManager();
         if(db.MyInsertUpdateDelete(cmd))
         {

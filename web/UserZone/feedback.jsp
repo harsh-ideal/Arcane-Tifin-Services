@@ -3,7 +3,7 @@
 <%
 if(session.getAttribute("uid")!=null && session.getAttribute("uid")!="")
 {
-    out.print(session.getAttribute("uid"));
+   // out.print(session.getAttribute("uid"));
 %>
 <%
 if(request.getParameter("submit")!=null){
@@ -14,7 +14,7 @@ if(request.getParameter("submit")!=null){
     SimpleDateFormat sm=new SimpleDateFormat();
         String dt=sm.format(new Date());
         String cmd="insert into tb_feed(id,rate,feed,rdt) values('"+id+"','"+rate+"','"+feod+"','"+dt+"')";
-        out.print(cmd);
+       // out.print(cmd);
         
          if(db1.MyInsertUpdateDelete(cmd))
         {

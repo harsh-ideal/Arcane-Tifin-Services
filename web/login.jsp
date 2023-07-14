@@ -8,7 +8,7 @@
         String mobile=request.getParameter("txtmobile");
         String pass=request.getParameter("txtpass");
         String cmd="select * from tbl_login where userid='"+mobile+"' and password='"+pass+"'"; 
-        out.print(cmd);
+        //out.print(cmd);
         DatabaseManager db=new DatabaseManager();
         ResultSet rs=db.DisplayAllRecords(cmd);
         if(rs.next())

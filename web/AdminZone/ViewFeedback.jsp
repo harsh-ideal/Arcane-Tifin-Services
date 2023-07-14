@@ -4,7 +4,7 @@
 <%
 if(session.getAttribute("aid")!=null && session.getAttribute("aid")!="")
 {
-   out.print(session.getAttribute("uid"));
+  // out.print(session.getAttribute("uid"));
 %>
 <!DOCTYPE html>
 <html>

@@ -5,7 +5,7 @@
 <%
 if(session.getAttribute("did")!=null && session.getAttribute("did")!="")
 {
-    out.print(session.getAttribute("uid"));
+    //out.print(session.getAttribute("uid"));
 %>
 <%
     if(request.getParameter("complain")!=null){
@@ -14,7 +14,7 @@ if(session.getAttribute("did")!=null && session.getAttribute("did")!="")
         SimpleDateFormat sm=new SimpleDateFormat();
         String dt=sm.format(new Date());
         String cmd="insert into tb_complain(mobile,complain,cdt,type) values('"+id+"','"+msg+"','"+dt+"','dealer')";
-        out.print(cmd);
+        //out.print(cmd);
         DatabaseManager db=new DatabaseManager();
         if(db.MyInsertUpdateDelete(cmd))
         {

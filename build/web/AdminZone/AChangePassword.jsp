@@ -2,7 +2,7 @@
 <%
 if(session.getAttribute("aid")!=null && session.getAttribute("aid")!="")
 {
-   out.print(session.getAttribute("aid"));
+   //out.print(session.getAttribute("aid"));
 %>
 <%
     if(request.getParameter("submit")!=null)
